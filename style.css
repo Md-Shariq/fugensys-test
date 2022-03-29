@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.carousel-item img{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+/* footer */
+.section-12 {
+    background-color: white;
+    width: 100%;
+}
+
+.section-12-detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.input-email {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.secondry-button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    letter-spacing: 3px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+
+.next-slide-brand {
+    top: 20%;
+    right: -60px;
+    background-color: white;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    box-shadow: 0px 0px 20px gainsboro;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.prev-slide-brand {
+    top: 20%;
+    left: -60px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gainsboro;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 67%;
+}
+
+.bg-gainsboro {
+    background: gainsboro;
+}
+
+.bg-wheat {
+    background: wheat;
+}
+
+.round-card {
+    overflow: hidden;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px gainsboro;
+    padding: 0px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+.next-slide-brand {
+    right: 8px;
+}
+
+.prev-slide-brand {
+    left: 8px;
+}
+
+
+}
